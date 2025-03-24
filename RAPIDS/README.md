@@ -13,7 +13,7 @@ Now you can run any of the Jupyter notebooks in this directory (once you set the
 
 
 # RAPIDS Random Forest with scikit-learn
-File: RandomForest.ipynb
+File: RAPIDS_RandomForest.ipynb
 
 Request 4 cores, at least 8GB RAM, 1 GPU and at least 1 hour of runtime.
 In my testing the CPU code provided takes around 10-11 minutes of wall clock time with 4 cores (around 42 minutes of CPU time in total).
