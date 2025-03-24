@@ -7,11 +7,9 @@ Open the notebook in that folder, set the python version to "python3.12" and giv
 Edit the modulesToLoad variable to read: 
   modulesToLoad = "cuda/12.3-cudnn8.9"
 
-Run all cells, and this will create your Python virtual environment. Once all cells have run you can close this notebook.
+Run all cells, and this will create your Python virtual environment. Once all cells have run you can close this notebook. 
 
-Refresh your Jupyterhub main tab and then create a new notebook using your new Python virtual environment. 
-
-Now you can run any of the Jupyter notebooks in this directory to compare the difference between the CPU and GPU implementations. Each notebook will start with a pip install to load the relevant CUDA packages for CUDA 12.
+Now you can run any of the Jupyter notebooks in this directory (once you set the kernal to be the one you've created) to compare the difference between the CPU and GPU implementations. Each notebook will start with a pip install to load the relevant CUDA packages for CUDA 12.
 
 
 # RAPIDS Random Forest with scikit-learn
